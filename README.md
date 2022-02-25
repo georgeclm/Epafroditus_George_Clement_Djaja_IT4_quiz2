@@ -5,7 +5,7 @@
 ```bash
 git clone https://github.com/georgeclm/Epafroditus_George_Clement_Djaja_IT4_quiz2
 cd Epafroditus_George_Clement_Djaja_IT4_quiz2
-pip install -r requirment.txt
+pip install -r requirments.txt
 ```
 
 2. **Configure the DB HOST DATABSE USERNAME PASSWORD**
