@@ -105,3 +105,5 @@ system.create_table(
     'ittrial2022', 'Gold_Karat (karat VARCHAR(255), Age VARCHAR(255), Sell_Price VARCHAR(255))', gold_karat_df)
 # create the table in the database and the dataframe to insert to the table Titanic table
 system.create_table('ittrial2022', 'Titanic (PassengerId VARCHAR(255), Survived VARCHAR(255), Pclass VARCHAR(255), Name VARCHAR(255), Sex VARCHAR(255), Age VARCHAR(255),SibSp VARCHAR(255),Parch VARCHAR(255),Ticket VARCHAR(255),Fare VARCHAR(255),Cabin  VARCHAR(255),Embarked VARCHAR(255))', titanic_df.fillna(0))
+# load data
+print(system.load_data('ittrial2022', 'Gold_Karat'))
